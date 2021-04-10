@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark:text-white">
     <h1>Prueba</h1>
     Prueba
   </div>

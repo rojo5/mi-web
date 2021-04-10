@@ -34,14 +34,23 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     //https://tailwindcss.nuxtjs.org/
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    //https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     //https://content.nuxtjs.org/
-    '@nuxt/content'
+    '@nuxt/content',
+    // https://www.npmjs.com/package/@nuxtjs/svg
+    '@nuxtjs/svg'
   ],
+
+  colorMode: {
+    preference: 'dark',
+    classSuffix: ''
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
