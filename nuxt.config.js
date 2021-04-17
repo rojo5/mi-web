@@ -44,7 +44,22 @@ export default {
     //https://content.nuxtjs.org/
     '@nuxt/content',
     // https://www.npmjs.com/package/@nuxtjs/svg
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    // https://www.npmjs.com/package/nuxt-fontawesome
+    ['nuxt-fontawesome', {
+      component: 'fa',
+      imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        },
+        {
+          set:'@fortawesome/free-brands-svg-icons',
+          icons:['fab']
+        }
+      ]
+    }]
+
   ],
 
   colorMode: {

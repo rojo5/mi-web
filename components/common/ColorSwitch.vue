@@ -1,8 +1,7 @@
 <template>
   <div>
-    {{ $colorMode.preference }}
-    <IconDark v-if="$colorMode.preference != 'dark'" @click="changeTheme('dark')"/>
-    <IconLight v-else @click="changeTheme('light')" />
+    <IconDark v-if="$colorMode.preference != 'dark'" @click="changeTheme('dark')" class="h-5 w-5"/>
+    <IconLight v-else @click="changeTheme('light')" class="h-5 w-5"/>
   </div>
 </template>
 
