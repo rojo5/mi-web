@@ -1,9 +1,9 @@
 <template>
   <div class="dark:text-white  items-center">
-    <section class="pb-10 items-center md:grid grid-cols-2 md:gap-4 mx-auto px-10">
-      <div>
+    <section class="pb-10 items-center md:grid grid-cols-2 md:gap-4 mx-auto px-10 sm:space-y-5">
+      <div class="mb-4">
         <h1 class="text-2xl font-semibold text-gray-600 dark:text-white">
-          Luis Lorenzo - full stack developer👨🏻‍💻
+          Luis Lorenzo
         </h1>
 
         <p>
@@ -20,13 +20,13 @@
         </p>
       </div>
 
-      <div class="image-wrapper">
+      <div class="image-wrapper sm:pt-4">
         <img  src="~/assets/images/example.gif" alt="Imagen de ejemplo" />
       </div>
     </section>
 
     <section class="mt-8">
-      <h1 class="text-2xl font-semibold text-gray-600 dark:text-white text-center">Experiencia laboral</h1>
+      <h1 class="text-3xl font-semibold text-gray-600 dark:text-white text-center">Experiencia laboral 👨🏻‍💻</h1>
       <HistoryWork :works="works"/>
     </section>
   </div>
