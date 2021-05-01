@@ -10,7 +10,7 @@
             <span class="font-semibold">{{work.year}}</span>
           </div>
           <div class="flex-grow pl-4">
-            <h2 class="font-medium text-lg mb-1 tracking-wider">{{work.company}} - {{work.month}}</h2>
+            <h2 class="font-medium text-lg mb-1 tracking-wider"> <b>{{work.company}}</b> - {{work.month}}</h2>
             <p class="leading-relaxed">
               {{work.description}}
             </p>

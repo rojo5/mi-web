@@ -11,8 +11,9 @@
 </div>
 
   <nav :class="open ? 'block' :'hidden' " class="w-full flex-grow sm:flex  sm:items-center md:justify-end sm:justify-end sm:w-auto sm:space-x-4 font-semibold p-6 pt-0 md:p-0">
-    <a href="#" class="block py-1 text-red-600 hover:underline dark:text-red-100">Social</a>
-    <color-switch class="sm:border-l-2  sm:pl-3"/>
+    <!-- <a href="#" class="block py-1 text-red-600 hover:underline dark:text-red-100">Blog</a>
+    <color-switch class="sm:border-l-2  sm:pl-3"/> -->
+    <color-switch class="sm:pt-2"/>
   </nav>
 </header>
 </template>

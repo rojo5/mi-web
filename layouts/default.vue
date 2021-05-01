@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="dark:bg-gray-800 dark:text-white">
     <Navbar />
-    <Nuxt class=" dark:bg-gray-800 dark:text-white  pt-3 px-11 mx"/>
-    <Footer class="dark:bg-gray-800 dark:text-white" />
+    <Nuxt class="pt-3"/>
+    <Footer/>
   </div>
 </template>
 
