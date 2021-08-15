@@ -1,7 +1,7 @@
 <template>
   <div class="dark:bg-gray-900 dark:text-white">
     <Navbar />
-    <Nuxt class="pt-3"/>
+    <Nuxt class="pt-3  px-3"/>
     <Footer/>
   </div>
 </template>
