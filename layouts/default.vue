@@ -1,5 +1,5 @@
 <template>
-  <div class="dark:bg-gray-900 dark:text-white">
+  <div class="dark:text-white">
     <Navbar />
     <Nuxt class="pt-3  px-3"/>
     <Footer/>

@@ -35,8 +35,6 @@ export default {
   buildModules: [
     //https://tailwindcss.nuxtjs.org/
     '@nuxtjs/tailwindcss',
-    //https://color-mode.nuxtjs.org/
-    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -45,6 +43,8 @@ export default {
     '@nuxt/content',
     // https://www.npmjs.com/package/@nuxtjs/svg
     '@nuxtjs/svg',
+    //https://color-mode.nuxtjs.org/
+    '@nuxtjs/color-mode',
     // https://www.npmjs.com/package/nuxt-fontawesome
     ['nuxt-fontawesome', {
       component: 'fa',
@@ -64,6 +64,7 @@ export default {
 
   colorMode: {
     preference: 'light',
+    fallback: 'dark',
     classSuffix: ''
   },
 

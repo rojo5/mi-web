@@ -12,7 +12,7 @@
 </div>
 
   <nav :class="open ? 'block' :'hidden' " class="w-full flex-grow sm:flex  sm:items-center md:justify-end sm:justify-end sm:w-auto sm:space-x-4 font-semibold p-6 pt-0 md:p-0">
-    <nuxt-link  to="/blog" class="block py-1 text-red-600 hover:underline dark:text-red-100">Blog</nuxt-link>
+    <nuxt-link  to="/blog" class="block py-1 text-red-600  hover:text-red-400 dark:hover:text-white dark:text-red-300">Blog</nuxt-link>
     <color-switch class="sm:border-l-2  sm:pl-3"/> 
     <!-- <color-switch class="sm:pt-2 mt-3 md:mt-0"/> -->
   </nav>

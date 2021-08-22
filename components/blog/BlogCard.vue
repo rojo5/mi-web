@@ -1,6 +1,6 @@
 <template>
   <div class="post" @click="selectPost">
-      <h1 class="font-semibold text-2xl text-gray-500">{{title}}</h1>
+      <h1 class="font-semibold text-2xl text-gray-500 dark:text-gray-200">{{title}}</h1>
       <div class="bottom-post">
           <span>🗓 {{parseDate(date)}}</span>
       </div>
@@ -55,7 +55,7 @@ export default {
 }
 
 .post:hover {
-    box-shadow: 4px 10px 20px #dadada80;
+    box-shadow: 4px 10px 20px var(--blog-card-shadow);
     transform: translate3d(0, -3px, 0);
 }
 

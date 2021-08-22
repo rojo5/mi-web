@@ -1,0 +1,4 @@
+.dark {
+    --bg: theme('colors.dark');
+    --blog-card-shadow: var(--bg); 
+}
