@@ -6,7 +6,7 @@
               <span>🗓 {{ parseDate(post.date)}}</span>
           </p>
           <div class="divider" />
-          <nuxt-content :document="post" />
+          <nuxt-content class="prose dark:prose-dark dark:text-white" :document="post" />
       </article>
   </section>
 </template>
