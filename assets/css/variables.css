@@ -1,0 +1,4 @@
+:root {
+    --bg: theme('colors.white');
+    --blog-card-shadow: #dadada80;
+}
